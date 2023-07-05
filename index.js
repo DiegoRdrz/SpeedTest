@@ -47,7 +47,8 @@ function calculateSpeed(){
 
         bitSpeed.innerHTML += `${averageSpeedInBps}`;
         kbSpeed.innerHTML += `${averageSpeedInKbps}`;
-        MbSpeed.innerHTML += `${averageSpeedInMbps}`;
+        mbSpeed.innerHTML += `${averageSpeedInMbps}`;
+
         info.innerHTML = "test Completado";
     }else{
         startTime = new Date().getTime();
